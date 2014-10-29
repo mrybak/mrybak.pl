@@ -1,11 +1,14 @@
 html,body {
   height:100%;
+  /*font-family: 'Raleway',sans-serif;*/
 }
 
 h1 {
-  font-family: Arial,sans-serif;
   font-size:80px;
   color: #ffffff;
+    letter-spacing: -4px;
+    font-family: 'ralewaythin', sans-serif;
+    text-transform: uppercase;
 }
 
 .lead {
