@@ -6,8 +6,9 @@ html,body {
 h1 {
   font-size:80px;
   color: #ffffff;
+    font-weight: 100;
     letter-spacing: -4px;
-    font-family: 'ralewaythin', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
 }
 
