@@ -24,6 +24,16 @@ h1 {
 
 .lead a {
     color: #aaa;
+    border: 3px solid #aaa;
+    border-radius: 5px;
+    padding: 7px 14px;
+    margin: 5px;
+    display: inline-block;
+}
+.lead a:hover, .lead a:focus {
+    color: #2ccbf3;
+    text-decoration: none;
+    border-color: #2ccbf3;
 }
 
 p {
