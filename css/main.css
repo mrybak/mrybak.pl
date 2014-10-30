@@ -2,13 +2,58 @@ html, body {
     height: 100%;
     font-family: 'Raleway', sans-serif;
     color: #221618;
+    font-size: 16px;
 }
 
 h1 {
-    font-size: 80px;
-    font-weight: 900;
+    font-size: 8.5rem;
     letter-spacing: -4px;
     text-transform: uppercase;
+}
+
+.entry-title {
+    font-size: 6rem;
+    text-align: left;
+    padding-bottom: 4rem;
+}
+
+.lead {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.lead a {
+    color: #aaa;
+}
+
+p {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.7;
+    margin: 6rem 0;
+}
+
+.font-100 {
+    font-weight: 100;
+}
+
+.font-400 {
+    font-weight: 400;
+}
+
+.font-700 {
+    font-weight: 700;
+}
+
+.font-900 {
+    font-weight: 900;
+}
+
+.tooltip {
+    font-weight: 400;
+    font-size: 1rem;
 }
 
 /* Custom container */
@@ -20,7 +65,7 @@ h1 {
     overflow: hidden;
 }
 
-.container-full a {
+.social-link {
     position: relative;
     margin: 5px;
     text-decoration: none;
@@ -28,17 +73,17 @@ h1 {
     width: 68px;
     height: 68px;
     padding-top: 8px;
-  display: inline-block;
-  -moz-border-radius: 68px;
-  -webkit-border-radius: 68px;
-  border-radius: 68px;
+    display: inline-block;
+    -moz-border-radius: 68px;
+    -webkit-border-radius: 68px;
+    border-radius: 68px;
     border: 4px solid #2ccbf3;
     text-align: center;
     background: #2ccbf3;
     color: #fefefe;
 }
 
-.container-full a:hover, .container-full a:focus {
+.social-link:hover, .social-link:focus {
     background: #fefefe;
     color: #2ccbf3;
 }
@@ -47,11 +92,30 @@ i {
     position: absolute;
 }
 
-.fa-google-plus { top: 15px; left: 15px; }
-.fa-facebook { top: 13px; left: 18px; }
-.fa-linkedin { top: 11px; left: 15px; }
-.fa-github { top: 12px; left: 14px; }
-.fa-stack-overflow { top: 11px; left: 14px; }
+.fa-google-plus {
+    top: 15px;
+    left: 15px;
+}
+
+.fa-facebook {
+    top: 13px;
+    left: 18px;
+}
+
+.fa-linkedin {
+    top: 11px;
+    left: 15px;
+}
+
+.fa-github {
+    top: 12px;
+    left: 14px;
+}
+
+.fa-stack-overflow {
+    top: 11px;
+    left: 14px;
+}
 
 .v-center {
     margin-top: 7%;
