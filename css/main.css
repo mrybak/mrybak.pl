@@ -2,6 +2,8 @@ html, body {
     height: 100%;
     color: #221618;
     font-size: 16px;
+    background: #000;
+    border-top: 3px solid #2ccbf3;
 }
 
 body {
@@ -25,6 +27,14 @@ h1 {
 .lead {
     text-align: center;
     font-size: 3rem;
+}
+
+.container-full {
+    height: auto;
+}
+
+#intro {
+    min-height: 100%;
 }
 
 .lead a {
