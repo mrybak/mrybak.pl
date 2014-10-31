@@ -12,7 +12,7 @@ body {
 }
 
 h1 {
-    font-family: 'Raleway',  sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 8.5rem;
     letter-spacing: -4px;
     text-transform: uppercase;
@@ -111,6 +111,9 @@ p {
     background: #fefefe;
     color: #2ccbf3;
 }
+.social-link:hover span, .social-link:focus span {
+    color: #2ccbf3;
+}
 
 i {
     position: absolute;
@@ -139,6 +142,22 @@ i {
 .fa-stack-overflow {
     top: 11px;
     left: 14px;
+}
+
+.fa-file-text-o {
+    top: 11px;
+    left: 16px;
+}
+
+.cv-text-on-icon {
+    position: absolute;
+    font-size: 10px;
+    ext-transform: uppercase;
+    top: 13px;
+    left: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-family: Georgia, serif;
 }
 
 .v-center {
