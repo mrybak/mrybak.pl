@@ -56,6 +56,7 @@ p a {
     color: #e0e0e0;
     border-bottom: 2px dotted #cccccc;
 }
+
 p a:hover, p a:focus, p a:active {
     color: #F3542C;
     text-decoration: none;
@@ -134,11 +135,12 @@ p a:hover, p a:focus, p a:active {
     border-radius: 100px;
     border: 4px solid #666;
     text-align: center;
-    background: #fefefe;
+    background: transparent;
     color: #666;
 }
 
 .round-button-big:hover, .round-button-big:focus {
+    background: transparent;
     border: 4px solid #222;
     color: #222;
 }
@@ -218,7 +220,6 @@ i {
     margin-top: 3%;
 }
 
-
 #about {
     background: #2ccbf3;
     color: #fefefe;
@@ -238,9 +239,12 @@ section h2 {
     text-transform: uppercase;
 }
 
-
-
 /* NAVBAR */
+
+#home-link {
+    padding: 15px 13px;
+    display: inline-block;
+}
 
 .navbar-custom {
     margin-bottom: 0;
@@ -291,6 +295,10 @@ section h2 {
 .navbar-custom .nav li a.active {
     outline: 0;
     background-color: rgba(255, 255, 255, .3);
+}
+
+.navbar-custom {
+    border-bottom: 1px solid #e3e3e3;
 }
 
 @media (min-width: 767px) {
