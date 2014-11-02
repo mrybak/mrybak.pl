@@ -11,6 +11,15 @@ body {
     font-size: 1.9rem;
 }
 
+.container-full {
+    background: #222;
+}
+
+section, footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 8rem;
@@ -52,6 +61,11 @@ p {
     margin: 6rem 0;
 }
 
+.text-small {
+    font-size: 1rem;
+}
+
+
 p a {
     color: #e0e0e0;
     border-bottom: 2px dotted #cccccc;
@@ -63,6 +77,22 @@ p a:hover, p a:focus, p a:active {
     border-bottom: 2px dotted #F3542C;
     outline: none;
 }
+
+footer p {
+    margin: 3rem 0;
+}
+footer a {
+    color: #444;
+    border-bottom: 2px dotted #333;
+}
+
+footer a:hover, footer a:focus, footer a:active {
+    color: #F3542C;
+    text-decoration: none;
+    border-bottom: 2px dotted #F3542C;
+    outline: none;
+}
+
 
 .font-100 {
     font-weight: 100;
@@ -230,6 +260,11 @@ i {
     color: #fefefe;
 }
 
+footer {
+    background: #111;
+    color: #222;
+}
+
 section h2 {
     width: 100%;
     text-align: left;
@@ -242,7 +277,7 @@ section h2 {
 /* NAVBAR */
 
 #home-link {
-    padding: 15px 13px;
+    padding: 12px 13px;
     display: inline-block;
 }
 
