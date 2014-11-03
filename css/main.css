@@ -145,6 +145,7 @@ footer a:hover, footer a:focus, footer a:active {
 .social-link:hover, .social-link:focus {
     background: #fefefe;
     color: #2ccbf3;
+    border-bottom: 4px solid #2ccbf3;
 }
 
 .social-link:hover span, .social-link:focus span {
