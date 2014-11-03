@@ -67,8 +67,8 @@ p {
 
 
 p a {
-    color: #e0e0e0;
-    border-bottom: 2px dotted #cccccc;
+    color: #eaeaea;
+    border-bottom: 2px dotted #cfcfcf;
 }
 
 p a:hover, p a:focus, p a:active {
