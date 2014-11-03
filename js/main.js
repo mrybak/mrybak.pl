@@ -1,5 +1,10 @@
 $(function () {
-    $("[data-toggle=tooltip]").tooltip();
+    // Bootstrap's collapsible needs relabeling on toggle...
+    $('.collapse').on('shown.bs.collapse', function(){
+        $(this).parent().find('p>a').text("Less...");
+    }).on('hidden.bs.collapse', function(){
+        $(this).parent().find('p>a').text("More...");
+    });
 });
 
 // jQuery to collapse the navbar on scroll

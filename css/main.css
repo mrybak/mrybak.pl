@@ -66,12 +66,12 @@ p {
 }
 
 
-p a {
+section a {
     color: #eaeaea;
     border-bottom: 2px dotted #cfcfcf;
 }
 
-p a:hover, p a:focus, p a:active {
+section a:hover, section a:focus, section a:active {
     color: #F3542C;
     text-decoration: none;
     border-bottom: 2px dotted #F3542C;
@@ -260,6 +260,20 @@ i {
     color: #fefefe;
 }
 
+#projects ul {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 1.5rem;
+}
+
+#projects .row {
+    margin-top: 2rem;
+}
+
+#projects p {
+    margin: 1rem 0;
+}
+
 footer {
     background: #111;
     color: #222;
@@ -272,6 +286,15 @@ section h2 {
     font-size: 5rem;
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
+}
+
+section h3 {
+    width: 100%;
+    text-align: left;
+    font-weight: 900;
+    font-size: 2.7rem;
+    font-family: 'Raleway', sans-serif;
+    color: #2ccbf3;
 }
 
 /* NAVBAR */
