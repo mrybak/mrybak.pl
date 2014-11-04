@@ -298,7 +298,11 @@ section h3 {
 
 #home-link {
     padding: 12px 13px;
-    display: inline-block;
+    display: inline-block !important;
+}
+
+#home-link.hidden {
+    display: none;
 }
 
 .navbar-custom {

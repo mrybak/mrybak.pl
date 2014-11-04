@@ -1,4 +1,5 @@
 $(function () {
+
     // Bootstrap's collapsible needs relabeling on toggle...
     $('.collapse').on('shown.bs.collapse', function(){
         $(this).parent().find('p>a').text("Less...");
