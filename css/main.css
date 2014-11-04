@@ -186,15 +186,11 @@ footer a:hover, footer a:focus, footer a:active {
     transform: translateZ(0);
     border-color: #666;
     color: #666;
-    /*box-shadow: inset 0 0 0 4px #e1e1e1, 0 0 1px rgba(0, 0, 0, 0);*/
-    /* Hack to improve aliasing on mobile/tablet devices */
 }
 
 .border-fade:hover, .border-fade:focus, .border-fade:active {
     border-color: #222;
     color: #222;
-    /*box-shadow: inset 0 0 0 4px #666666, 0 0 1px rgba(0, 0, 0, 0);*/
-    /* Hack to improve aliasing on mobile/tablet devices */
 }
 
 i {
@@ -312,7 +308,7 @@ section h3 {
     font-family: 'Raleway', sans-serif;
     background-color: #fdfdfd;
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 19px;  /* this should not scale on mobile so we dont't use rems*/
 }
 
 .navbar-custom .navbar-brand {
@@ -382,5 +378,16 @@ section h3 {
 
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255, 255, 255, .3);
+    }
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media (max-width: 400px) {
+    html {
+        font-size: 10px;
     }
 }
