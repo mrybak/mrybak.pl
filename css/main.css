@@ -72,6 +72,7 @@ section a {
 }
 
 section a:hover, section a:focus, section a:active {
+    cursor: pointer;
     color: #F3542C;
     text-decoration: none;
     border-bottom: 2px dotted #F3542C;
