@@ -1,6 +1,13 @@
 @main-color: #f34933;
+
 @font-color-1: #221618;
+@page-bg-1: #fefefe;
+
+@page-bg-2: @main-color;
 @font-color-2: #fefefe;
+
+@page-bg-3: #222;
+@font-color-3: #fefefe;
 
 html, body {
     height: 100%;
@@ -77,9 +84,9 @@ section a {
 
 section a:hover, section a:focus, section a:active {
     cursor: pointer;
-    color: #F3542C;
+    color: @font-color-2;
     text-decoration: none;
-    border-bottom: 2px dotted #F3542C;
+    border-bottom: 2px dotted @font-color-2;
     outline: none;
 }
 
@@ -92,9 +99,9 @@ footer a {
 }
 
 footer a:hover, footer a:focus, footer a:active {
-    color: #F3542C;
+    color: @main-color;
     text-decoration: none;
-    border-bottom: 2px dotted #F3542C;
+    border-bottom: 2px dotted @main-color;
     outline: none;
 }
 
@@ -125,7 +132,7 @@ footer a:hover, footer a:focus, footer a:active {
     margin: 0 auto;
     width: 100%;
     min-height: 100%;
-    background-color: @font-color-2;
+    background-color: #222;
     overflow: hidden;
 }
 
@@ -252,14 +259,19 @@ i {
     margin-top: 3%;
 }
 
+#intro {
+  background: @page-bg-1;
+  color: @font-color-1;
+}
+
 #about {
-    background: @main-color;
+    background: @page-bg-2;
     color: @font-color-2;
 }
 
 #projects {
-    background: #222;
-    color: @font-color-2;
+    background: @page-bg-3;
+    color: @font-color-3;
 }
 
 #projects ul {
