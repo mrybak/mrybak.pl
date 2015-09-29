@@ -1,8 +1,10 @@
-@main-color: #2ccbf3;
+@main-color: #f34933;
+@font-color-1: #221618;
+@font-color-2: #fefefe;
 
 html, body {
     height: 100%;
-    color: #221618;
+    color: @font-color-1;
     font-size: 16px;
     background: #000;
     border-top: 2px solid @main-color;
@@ -123,7 +125,7 @@ footer a:hover, footer a:focus, footer a:active {
     margin: 0 auto;
     width: 100%;
     min-height: 100%;
-    background-color: #fefefe;
+    background-color: @font-color-2;
     overflow: hidden;
 }
 
@@ -142,11 +144,11 @@ footer a:hover, footer a:focus, footer a:active {
     border: 4px solid @main-color;
     text-align: center;
     background: @main-color;
-    color: #fefefe;
+    color: @font-color-2;
 }
 
 .social-link:hover, .social-link:focus {
-    background: #fefefe;
+    background: @font-color-2;
     color: @main-color;
     border-bottom: 4px solid @main-color;
 }
@@ -252,12 +254,12 @@ i {
 
 #about {
     background: @main-color;
-    color: #fefefe;
+    color: @font-color-2;
 }
 
 #projects {
     background: #222;
-    color: #fefefe;
+    color: @font-color-2;
 }
 
 #projects ul {
@@ -380,7 +382,7 @@ section h3 {
     }
 
     .top-nav-collapse a {
-        color: #fefefe;
+        color: @font-color-2;
     }
 
     .navbar-custom.top-nav-collapse {
