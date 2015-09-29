@@ -1,9 +1,11 @@
+@main-color: #2ccbf3;
+
 html, body {
     height: 100%;
     color: #221618;
     font-size: 16px;
     background: #000;
-    border-top: 2px solid #2ccbf3;
+    border-top: 2px solid @main-color;
 }
 
 body {
@@ -137,20 +139,20 @@ footer a:hover, footer a:focus, footer a:active {
     -moz-border-radius: 68px;
     -webkit-border-radius: 68px;
     border-radius: 68px;
-    border: 4px solid #2ccbf3;
+    border: 4px solid @main-color;
     text-align: center;
-    background: #2ccbf3;
+    background: @main-color;
     color: #fefefe;
 }
 
 .social-link:hover, .social-link:focus {
     background: #fefefe;
-    color: #2ccbf3;
-    border-bottom: 4px solid #2ccbf3;
+    color: @main-color;
+    border-bottom: 4px solid @main-color;
 }
 
 .social-link:hover span, .social-link:focus span {
-    color: #2ccbf3;
+    color: @main-color;
 }
 
 .round-button-big {
@@ -249,7 +251,7 @@ i {
 }
 
 #about {
-    background: #2ccbf3;
+    background: @main-color;
     color: #fefefe;
 }
 
@@ -292,7 +294,7 @@ section h3 {
     font-weight: 900;
     font-size: 2.7rem;
     font-family: 'Raleway', sans-serif;
-    color: #2ccbf3;
+    color: @main-color;
 }
 
 /* NAVBAR */
@@ -336,7 +338,7 @@ section h3 {
 }
 
 .navbar-custom a {
-    color: #2ccbf3;
+    color: @main-color;
 }
 
 .navbar-custom .nav li.active {
@@ -374,7 +376,7 @@ section h3 {
 
     .top-nav-collapse {
         padding: 0;
-        background-color: #2ccbf3;
+        background-color: @main-color;
     }
 
     .top-nav-collapse a {
